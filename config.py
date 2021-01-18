@@ -1,10 +1,11 @@
+#small change to  push
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'sqlles3'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'sqlles3.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'dbles3'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'udbles3'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Pwd@1234'
