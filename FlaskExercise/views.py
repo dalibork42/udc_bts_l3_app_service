@@ -1,3 +1,4 @@
+
 from flask import render_template, redirect, request
 from FlaskExercise import app, db
 from FlaskExercise.forms import AnimalForm
