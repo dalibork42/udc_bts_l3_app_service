@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'l3animals'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cb4b2b99737b436f94a79eaaf470203a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b23a39b0d6ee4f649722b8cc2a451475 }}
